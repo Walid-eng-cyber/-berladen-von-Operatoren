@@ -1,0 +1,21 @@
+2026-06-02T21:43:10+02:00
+Running C:\Users\walid\OneDrive\Desktop\-berladen-von-Operatoren\bin\matrix_benchmark_advanced_O3.exe
+Run on (16 X 3800 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x8)
+  L1 Instruction 32 KiB (x8)
+  L2 Unified 512 KiB (x8)
+  L3 Unified 32768 KiB (x1)
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Chained_Addition_2x2",522753792,145.98,145.503,ns,,,,,
+"BM_Chained_Addition_10x10",205034325,337.147,335.919,ns,,,,,
+"BM_Chained_Addition_100x100",5423729,12791.5,12739.2,ns,,,,,
+"BM_Chained_Addition_500x500",46521,1.50999e+06,1.50201e+06,ns,,,,,
+"BM_Chained_Addition_1000x1000",10252,6.83818e+06,6.79288e+06,ns,,,,,
+"BM_Multiply_2x2",1329376855,54.6993,54.5251,ns,,,,,
+"BM_Multiply_10x10",168231318,429.31,427.889,ns,,,,,
+"BM_Multiply_50x50",1151671,61017.7,60727,ns,,,,,
+"BM_Multiply_100x100",133333,535190,533439,ns,,,,,
+"BM_Multiply_200x200",14191,4.97806e+06,4.96023e+06,ns,,,,,
+"BM_InPlace_Chained_10x10",86319846,827.617,812.205,ns,,,,,
+"BM_InPlace_Chained_100x100",12444444,6105.92,5985.35,ns,,,,,

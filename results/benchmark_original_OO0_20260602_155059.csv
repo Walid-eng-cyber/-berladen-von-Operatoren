@@ -1,0 +1,15 @@
+2026-06-02T15:50:59+02:00
+Running C:\Users\walid\OneDrive\Desktop\-berladen-von-Operatoren\bin\matrix_google_benchmark_O0.exe
+Run on (16 X 3800 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x8)
+  L1 Instruction 32 KiB (x8)
+  L2 Unified 512 KiB (x8)
+  L3 Unified 32768 KiB (x1)
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Addition_100x100",44813444,18834.9,18627.9,ns,,,,,
+"BM_Subtraction_100x100",35002735,21624.6,21302.4,ns,,,,,
+"BM_Multiplication_50x50",874317,795848,784434,ns,,,,,
+"BM_InPlace_Addition_100x100",34877384,20170.1,20094.1,ns,,,,,
+"BM_Chained_Operations",11808118,58763.2,58565.4,ns,,,,,
+"BM_Copy_Constructor_100x100",417287630,1682.03,1676.53,ns,,,,,

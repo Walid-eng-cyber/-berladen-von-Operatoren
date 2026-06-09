@@ -1,0 +1,130 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{stroustrup2013}
+\citation{cppreference}
+\citation{cppreference_elision}
+\citation{meyers2014}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Einleitung}{1}{section.2}\protected@file@percent }
+\newlabel{sec:einleitung}{{1}{1}{Einleitung}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Zielsetzung}{1}{subsection.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Aufbau der Arbeit}{1}{subsection.5}\protected@file@percent }
+\citation{stroustrup2013}
+\citation{cppreference}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{2}{section.6}\protected@file@percent }
+\newlabel{sec:theorie}{{2}{2}{Theoretischer Hintergrund}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Grundlagen der Operatorüberladung}{2}{subsection.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Member- vs. Nicht-Member-Funktionen}{3}{subsection.8}\protected@file@percent }
+\citation{meyers2005}
+\citation{sutter2004}
+\citation{cppreference}
+\citation{meyers2005}
+\citation{sutter2004}
+\citation{meyers2014}
+\citation{coreguidelines}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Spezielle Operatoren}{4}{subsection.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Rule of Three / Five / Zero}{4}{subsection.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Rule of Three.}{4}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Rule of Five.}{4}{section*.12}\protected@file@percent }
+\citation{coreguidelines}
+\citation{meyers2014}
+\@writefile{toc}{\contentsline {paragraph}{Rule of Zero.}{5}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Kopier- und Move-Semantik}{5}{subsection.14}\protected@file@percent }
+\citation{cppreference_elision}
+\citation{meyers2014}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Return Value Optimization (RVO/NRVO)}{6}{subsection.15}\protected@file@percent }
+\citation{stroustrup2013}
+\citation{cppreference}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Operatorüberladung in anderen Sprachen}{7}{subsection.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Praktische Implementierung}{7}{section.17}\protected@file@percent }
+\newlabel{sec:implementierung}{{3}{7}{Praktische Implementierung}{section.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Beschreibung der Beispielklasse}{8}{subsection.18}\protected@file@percent }
+\newlabel{sec:beispielklasse}{{3.1}{8}{Beschreibung der Beispielklasse}{subsection.18}{}}
+\newlabel{lst:skeleton}{{1}{8}{Datenmodell und Instrumentierung der Matrix-Klasse}{lstlisting.19}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces Datenmodell und Instrumentierung der Matrix-Klasse}}{8}{lstlisting.19}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Operatorensatz der Matrix-Klasse und gewählte Implementierungsform.}}{8}{table.caption.33}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:operatoren}{{1}{8}{Operatorensatz der Matrix-Klasse und gewählte Implementierungsform}{table.caption.33}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Version 1: Naive Implementierung}{8}{subsection.34}\protected@file@percent }
+\newlabel{sec:v1}{{3.2}{8}{Version 1: Naive Implementierung}{subsection.34}{}}
+\newlabel{lst:v1copy}{{2}{8}{Tiefe Kopie in Version 1: Kopierkonstruktor und Kopierzuweisung}{lstlisting.35}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}{\ignorespaces Tiefe Kopie in Version 1: Kopierkonstruktor und Kopierzuweisung}}{8}{lstlisting.35}\protected@file@percent }
+\newlabel{lst:v1plus}{{3}{9}{Naive Implementierung von operator+ (V1)}{lstlisting.55}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}{\ignorespaces Naive Implementierung von operator+ (V1)}}{9}{lstlisting.55}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Version 2: Implementierung mit Move-Semantik}{9}{subsection.63}\protected@file@percent }
+\newlabel{sec:v2}{{3.3}{9}{Version 2: Implementierung mit Move-Semantik}{subsection.63}{}}
+\newlabel{lst:v2move}{{4}{9}{Move-Konstruktor und Move-Zuweisung (V2): Zeigeruebernahme in O(1)}{lstlisting.64}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}{\ignorespaces Move-Konstruktor und Move-Zuweisung (V2): Zeigeruebernahme in O(1)}}{9}{lstlisting.64}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Version 3: \texttt  {+=}-basierte Implementierung}{10}{subsection.81}\protected@file@percent }
+\newlabel{sec:v3}{{3.4}{10}{Version 3: \texttt {+=}-basierte Implementierung}{subsection.81}{}}
+\newlabel{lst:v3}{{5}{10}{V3: In-place-Operator als Member, freie Funktion auf dessen Basis}{lstlisting.82}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}{\ignorespaces V3: In-place-Operator als Member, freie Funktion auf dessen Basis}}{10}{lstlisting.82}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Instrumentierung zur Zählung temporärer Objekte}{10}{subsection.97}\protected@file@percent }
+\newlabel{sec:instrumentierung}{{3.5}{10}{Instrumentierung zur Zählung temporärer Objekte}{subsection.97}{}}
+\newlabel{lst:stats}{{6}{11}{Statische Zaehler zur Messung von Kopien und Moves}{lstlisting.98}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}{\ignorespaces Statische Zaehler zur Messung von Kopien und Moves}}{11}{lstlisting.98}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimente und Analyse}{11}{section.107}\protected@file@percent }
+\newlabel{sec:experimente}{{4}{11}{Experimente und Analyse}{section.107}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Versuchsaufbau}{11}{subsection.108}\protected@file@percent }
+\newlabel{sec:versuchsaufbau}{{4.1}{11}{Versuchsaufbau}{subsection.108}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Messmethodik und Reproduzierbarkeit}{11}{subsection.116}\protected@file@percent }
+\newlabel{sec:methodik}{{4.2}{11}{Messmethodik und Reproduzierbarkeit}{subsection.116}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Mess- und Systemumgebung.}}{12}{table.caption.115}\protected@file@percent }
+\newlabel{tab:umgebung}{{2}{12}{Mess- und Systemumgebung}{table.caption.115}{}}
+\@writefile{toc}{\contentsline {paragraph}{Grenzen der Messung.}{12}{section*.117}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Ergebnisse: Laufzeit}{12}{subsection.118}\protected@file@percent }
+\newlabel{sec:laufzeit}{{4.3}{12}{Ergebnisse: Laufzeit}{subsection.118}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Laufzeit der Kernoperationen je Optimierungsstufe (in ns).}}{12}{table.caption.119}\protected@file@percent }
+\newlabel{tab:optlevels}{{3}{12}{Laufzeit der Kernoperationen je Optimierungsstufe (in ns)}{table.caption.119}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Laufzeitvergleich \texttt  {-O2} gegenüber \texttt  {-O3} für ausgewählte Operationen. Die höchste Optimierungsstufe bringt gegenüber \texttt  {-O2} keinen durchgängigen Vorteil.}}{13}{figure.caption.120}\protected@file@percent }
+\newlabel{fig:optlevels}{{1}{13}{Laufzeitvergleich \texttt {-O2} gegenüber \texttt {-O3} für ausgewählte Operationen. Die höchste Optimierungsstufe bringt gegenüber \texttt {-O2} keinen durchgängigen Vorteil}{figure.caption.120}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Anteil der Operationen an der Gesamtlaufzeit (\texttt  {-O2}). Die Multiplikation überwiegt aufgrund ihrer kubischen Komplexität.}}{13}{figure.caption.121}\protected@file@percent }
+\newlabel{fig:breakdown}{{2}{13}{Anteil der Operationen an der Gesamtlaufzeit (\texttt {-O2}). Die Multiplikation überwiegt aufgrund ihrer kubischen Komplexität}{figure.caption.121}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Laufzeit der Addition in Abhängigkeit von der Matrixgröße (\texttt  {-O2}).}}{14}{table.caption.122}\protected@file@percent }
+\newlabel{tab:skalierung}{{4}{14}{Laufzeit der Addition in Abhängigkeit von der Matrixgröße (\texttt {-O2})}{table.caption.122}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Laufzeit der Addition über die Matrixgröße (\texttt  {-O2}). Der überproportionale Anstieg bei $500\times 500$ ist auf Cache-Effekte zurückzuführen.}}{14}{figure.caption.123}\protected@file@percent }
+\newlabel{fig:skalierung}{{3}{14}{Laufzeit der Addition über die Matrixgröße (\texttt {-O2}). Der überproportionale Anstieg bei $500\times 500$ ist auf Cache-Effekte zurückzuführen}{figure.caption.123}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Ergebnisse: Temporäre Objekte}{14}{subsection.124}\protected@file@percent }
+\newlabel{sec:tempobjekte}{{4.4}{14}{Ergebnisse: Temporäre Objekte}{subsection.124}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Kopien und Moves je Operation (instrumentierte Zählung).}}{15}{table.caption.125}\protected@file@percent }
+\newlabel{tab:temporaries}{{5}{15}{Kopien und Moves je Operation (instrumentierte Zählung)}{table.caption.125}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Erzeugte temporäre Objekte (Kopien gegenüber Moves). Die Move-Operationen entfallen aufgrund der Kopierauslassung vollständig.}}{15}{figure.caption.126}\protected@file@percent }
+\newlabel{fig:temporaries}{{4}{15}{Erzeugte temporäre Objekte (Kopien gegenüber Moves). Die Move-Operationen entfallen aufgrund der Kopierauslassung vollständig}{figure.caption.126}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Ergebnisse: Speicherverbrauch}{15}{subsection.127}\protected@file@percent }
+\newlabel{sec:speicher}{{4.5}{15}{Ergebnisse: Speicherverbrauch}{subsection.127}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Kopier- und Move-Operationen je Szenario (instrumentierte Zählung; V1-Spalte als analytische Schätzung).}}{15}{table.caption.128}\protected@file@percent }
+\newlabel{tab:heap}{{6}{15}{Kopier- und Move-Operationen je Szenario (instrumentierte Zählung; V1-Spalte als analytische Schätzung)}{table.caption.128}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Kopier- und Move-Operationen je Szenario (V1 als analytische Schätzung gegenüber der move-fähigen Implementierung V2).}}{16}{figure.caption.129}\protected@file@percent }
+\newlabel{fig:heap}{{5}{16}{Kopier- und Move-Operationen je Szenario (V1 als analytische Schätzung gegenüber der move-fähigen Implementierung V2)}{figure.caption.129}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Interpretation der Ergebnisse}{16}{subsection.130}\protected@file@percent }
+\newlabel{sec:interpretation}{{4.6}{16}{Interpretation der Ergebnisse}{subsection.130}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Kopier- gegenüber Move-Konstruktor ($100\times 100$, \texttt  {-O2}). Der geringe gemessene Abstand ist durch den Pausierungs-Aufwand des Messrahmens bedingt und unterschätzt den tatsächlichen Vorteil der Move-Operation.}}{17}{figure.caption.131}\protected@file@percent }
+\newlabel{fig:copymove}{{6}{17}{Kopier- gegenüber Move-Konstruktor ($100\times 100$, \texttt {-O2}). Der geringe gemessene Abstand ist durch den Pausierungs-Aufwand des Messrahmens bedingt und unterschätzt den tatsächlichen Vorteil der Move-Operation}{figure.caption.131}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Fazit}{17}{section.132}\protected@file@percent }
+\newlabel{sec:fazit}{{5}{17}{Fazit}{section.132}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Zusammenfassung}{17}{subsection.133}\protected@file@percent }
+\newlabel{sec:zusammenfassung}{{5.1}{17}{Zusammenfassung}{subsection.133}{}}
+\citation{meyers2014}
+\citation{coreguidelines}
+\citation{sutter2004}
+\citation{meyers2005}
+\citation{cppreference}
+\citation{coreguidelines}
+\citation{veldhuizen1995}
+\citation{vandevoorde2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Empfehlungen}{18}{subsection.134}\protected@file@percent }
+\newlabel{sec:empfehlungen}{{5.2}{18}{Empfehlungen}{subsection.134}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Ausblick}{18}{subsection.141}\protected@file@percent }
+\newlabel{sec:ausblick}{{5.3}{18}{Ausblick}{subsection.141}{}}
+\bibcite{stroustrup2013}{1}
+\bibcite{meyers2005}{2}
+\bibcite{meyers2014}{3}
+\bibcite{vandevoorde2017}{4}
+\bibcite{cppreference}{5}
+\bibcite{cppreference_elision}{6}
+\bibcite{veldhuizen1995}{7}
+\bibcite{sutter2004}{8}
+\bibcite{coreguidelines}{9}
+\gdef \@abspage@last{22}

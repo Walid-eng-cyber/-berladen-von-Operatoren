@@ -1,0 +1,6 @@
+\contentsline {table}{\numberline {1}{\ignorespaces Operatorensatz der Matrix-Klasse und gewählte Implementierungsform.}}{12}{table.caption.35}%
+\contentsline {table}{\numberline {2}{\ignorespaces Mess- und Systemumgebung.}}{16}{table.caption.117}%
+\contentsline {table}{\numberline {3}{\ignorespaces Laufzeit der Kernoperationen je Optimierungsstufe (in ns).}}{17}{table.caption.121}%
+\contentsline {table}{\numberline {4}{\ignorespaces Laufzeit der Addition in Abhängigkeit von der Matrixgröße (\texttt {-O2}).}}{18}{table.caption.124}%
+\contentsline {table}{\numberline {5}{\ignorespaces Kopien und Moves je Operation (instrumentierte Zählung).}}{20}{table.caption.127}%
+\contentsline {table}{\numberline {6}{\ignorespaces Kopier- und Move-Operationen je Szenario (instrumentierte Zählung; V1-Spalte als analytische Schätzung).}}{21}{table.caption.130}%

@@ -1,0 +1,36 @@
+2026-06-02T16:29:55+02:00
+Running C:\Users\walid\OneDrive\Desktop\-berladen-von-Operatoren\bin\matrix_benchmark_advanced_O2.exe
+Run on (16 X 3800 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x8)
+  L1 Instruction 32 KiB (x8)
+  L2 Unified 512 KiB (x8)
+  L3 Unified 32768 KiB (x1)
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Chained_Addition_2x2",227526663,310.061,306.077,ns,,,,,
+"BM_Chained_Addition_10x10",188314418,376.522,370.059,ns,,,,,
+"BM_Chained_Addition_100x100",4939361,13390.3,13219.7,ns,,,,,
+"BM_Chained_Addition_500x500",30476,1.78839e+06,1.76522e+06,ns,,,,,
+"BM_Chained_Addition_1000x1000",8960,7.872e+06,7.76018e+06,ns,,,,,
+"BM_Multiply_2x2",1114427861,63.342,62.7284,ns,,,,,
+"BM_Multiply_10x10",134939759,533.988,529.403,ns,,,,,
+"BM_Multiply_50x50",1151671,60966.4,60509.9,ns,,,,,
+"BM_Multiply_100x100",138272,522907,520713,ns,,,,,
+"BM_Multiply_200x200",14579,4.78898e+06,4.76392e+06,ns,,,,,
+"BM_InPlace_Chained_10x10",82656827,922.361,861.62,ns,,,,,
+"BM_InPlace_Chained_100x100",11516710,7723.92,7612.58,ns,,,,,
+"BM_InPlace_Chained_500x500",152433,451662,425597,ns,,,,,
+"BM_FreeFunc_vs_InPlace_10x10_Free",660766962,108.384,107.924,ns,,,,,
+"BM_FreeFunc_vs_InPlace_10x10_InPlace",79573712,911.695,908.552,ns,,,,,
+"BM_FreeFunc_vs_InPlace_100x100_Free",15713785,4612.54,4599.86,ns,,,,,
+"BM_FreeFunc_vs_InPlace_100x100_InPlace",16314639,3455.69,3346.3,ns,,,,,
+"BM_FreeFunc_vs_InPlace_500x500_Free",139564,609332,605233,ns,,,,,
+"BM_FreeFunc_vs_InPlace_500x500_InPlace",299666,234781,225668,ns,,,,,
+"BM_Iterative_Refinement_100x100_100Iterations",100448,679331,670278,ns,,,,,
+"BM_Iterative_Refinement_100x100_1000Iterations",7619,8.94441e+06,8.96402e+06,ns,,,,,
+"BM_Addition_Scaling_2x2",1405269762,49.4912,49.112,ns,,,,,
+"BM_Addition_Scaling_10x10",868217054,78.8793,78.6274,ns,,,,,
+"BM_Addition_Scaling_50x50",68188737,1036.8,1034.12,ns,,,,,
+"BM_Addition_Scaling_100x100",19529207,3701.65,3689.99,ns,,,,,
+"BM_Addition_Scaling_500x500",137003,512582,508771,ns,,,,,
+"BM_Addition_Scaling_1000x1000",32869,2.16653e+06,2.15011e+06,ns,,,,,

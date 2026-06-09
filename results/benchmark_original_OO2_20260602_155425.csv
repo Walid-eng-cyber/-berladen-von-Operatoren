@@ -1,0 +1,24 @@
+2026-06-02T15:54:26+02:00
+Running C:\Users\walid\OneDrive\Desktop\-berladen-von-Operatoren\bin\matrix_google_benchmark_O2.exe
+Run on (16 X 3800 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x8)
+  L1 Instruction 32 KiB (x8)
+  L2 Unified 512 KiB (x8)
+  L3 Unified 32768 KiB (x1)
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Addition_100x100",21252372,3052.04,3032.01,ns,,,,,
+"BM_Subtraction_100x100",17237399,4039.46,4031.02,ns,,,,,
+"BM_Multiplication_50x50",1169713,60827,60685.3,ns,,,,,
+"BM_InPlace_Addition_100x100",17479516,3176.96,3157.27,ns,,,,,
+"BM_Chained_Operations",6473988,11178.6,11092.5,ns,,,,,
+"BM_Copy_Constructor_100x100",49944259,1523.02,1509.81,ns,,,,,
+"BM_Move_Constructor_100x100",81306715,1174.9,1089.24,ns,,,,,
+"BM_Addition_10x10",866537718,82.1391,81.0337,ns,,,,,
+"BM_Addition_50x50",62135922,1134.65,1118.77,ns,,,,,
+"BM_Addition_500x500",106413,607987,597759,ns,,,,,
+"BM_Loop_Accumulation",300268,235208,232605,ns,,,,,
+"BM_Copy_Assignment_100x100",51553510,1381.79,1361.75,ns,,,,,
+"BM_Move_Assignment_100x100",48432432,1551.96,1454.02,ns,,,,,
+"BM_Free_Function_Plus",16867470,4.22321,4.16297,us,,,,,
+"BM_Member_Operator_PlusEqual",18398357,3.39902,3.34099,us,,,,,

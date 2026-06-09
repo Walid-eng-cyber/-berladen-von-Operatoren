@@ -1,0 +1,40 @@
+# CMake build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+
+# VS Code specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake specific
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiler output
+*.d
+*.obj
+
+# Temporary files
+*.tmp
+*.bak
