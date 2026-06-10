@@ -34,10 +34,10 @@ else()
 endif()
 
 # Add subdirectories
-add_subdirectory(code)
+add_subdirectory(src)
 
 # Optional: Add documentation
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/documentation")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/docs")
     message(STATUS "Documentation directory found")
 endif()
 
